@@ -5,6 +5,16 @@
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
 
+### "Page Build Warning" email
+
+These days, some of you must receive a "Page Build Warning" email from github after you commit happily. **Don't Worried!** It just that github changes its build environment.
+
+In this mail, github told us:
+
+> You are attempting to use the 'pygments' highlighter, which is currently unsupported on GitHub Pages. Your site will use 'rouge' for highlighting instead. To suppress this warning, change the 'highlighter' value to 'rouge' in your '_config.yml'.
+
+So, just edit `_config.yml`, find `highlighter: pygments`, change it to `highlighter: rouge` and the warning will be gone.
+
 
 ## Boilerplate (beta)
 
@@ -17,14 +27,16 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 **[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
 
 
+## Translation
 
+ - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: 感谢 [@BrucZhaoR](https://github.com/BruceZhaoR) 的 [中文翻译 &rarr;](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
 
 ## Features
 
 ##### New Feature (V1.5.2)
 
-- Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update. 
-- `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default. 
+- Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update.
+- `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
 - Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
 
 ##### New Feature (V1.5.1)
@@ -69,16 +81,15 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 - **Typographic optimization** for Chinese Fonts
 - **Network optimizaition** for China, dropping Google webfont, using local CDN
 - Using [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
-- Using Baidu, Tencent/QQ analytics *(TODO: support GA)*
+- Using Baidu, Tencent/QQ analytics
 - Using [DuoShuo](http://duoshuo.com/) as the Disqus-like third party discussion system
 
 
 ## Support
 
-- **Feel free to fork. I'll Appreciate it if you keep the Author & Github link footer**
+- **Feel free to fork. I'll Appreciate it if you keep the Author & Github link at footer**
 - Give it a **Star** if you like, fork or just clone to use ;)
 - If any problem or requirement, just open an issue here and I will help you.
-- 如果有需要，我可以更新一篇中文文档 ;)
 
 
 ## Document

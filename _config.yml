@@ -1,6 +1,6 @@
 # Site settings
-title: YangJie Blog
-SEOTitle: 杨杰的博客 | YANGJIE Blog
+title: Yang Jie's Blog
+SEOTitle: Yang Jie's Blog
 header-img: img/home-bg.jpg
 email: pm.yangjie@gmail.com
 description: "关于前端与设计、黑客与画家 | 杨杰，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 YANGJIE 的个人博客，与你一起发现更大的世界。"
@@ -62,7 +62,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-jie.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -94,3 +94,5 @@ friends: [
         href: "http://ingf.github.io/"
     }
 ]
+
+gems: [jekyll-paginate]

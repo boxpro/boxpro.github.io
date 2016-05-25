@@ -8,7 +8,7 @@ header-img: "img/about-bg.jpg"
 <!-- Language Selector -->
 <select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
-   <!-- <option value="1"> 英语 English </option>-->
+    <!-- <option value="1"> 英语 English </option>-->
 </select>
 
 <!-- Chinese Version -->
@@ -19,38 +19,39 @@ header-img: "img/about-bg.jpg"
     </blockquote>
 
     <p>
-       来自于北方，在长沙学习，目前在混迹于上海！干过前端，做过后台，本职为产品，却努力的干着Android 和 iOS的活，操着运营的心。
-       热爱一切美好的新事物，刷过机，翻过墙。
-	
+        来自于北方，在长沙学习，目前在混迹于上海！干过前端，做过后台，本职为产品，却努力的干着Android 和 iOS的活，操着运营的心。
+        热爱一切美好的新事物，刷过机，翻过墙。
+
     </p>
 
     <p>
-	全栈工程师。2013.6-2015.6 担任开发工程师。耗时3月，独自二次开发中国健康服务网，一边填坑，一边成长。
+        全栈工程师。2013.6-2015.1 担任开发工程师。耗时3月，独自二次开发中国健康服务网，一边填坑，一边成长。
     </p>
 
     <p>
-	产品经理。2015.7 -至今。一次偶然爱上产品，鬼使神差的踏入了产品一行，迷恋交互，热衷于分享，于是有了这个博客。
+        产品经理。2015.1 -2016.1。一次偶然爱上产品，鬼使神差的踏入了产品一行，迷恋交互，热衷于分享，于是有了这个博客。
     </p>
-
+    <p>
+        Android高级工程师。2016.1 -至今。沉下心来,进入移动开发领域。
+    </p>
     <p>
         产品or开发，不是最终归途。这些都是为了构建一个伟大的产品去改变世界的必然手段。于是，心向全栈。
     </p>
 
-    <p>爱摄影，幻想着用800万的像素拍下整个世界。于是有了。。</p>
 
-    <p>哦对了，我叫<b>杨杰</b>
+
 
     <hr>
-<!--
-    做过的一些东西，右转<a href="/portfolio"> Portfolio 👉 </a>
-    <br>
-    <br>
-    最后附上认真版的简历:
-    <ul>
-        <li><a href="{{site.baseUrl}}/attach/2016_Hux_en_SE.pdf"> 2016_Hux_en_Sr.SE </a></li>
-        <li><a href="{{site.baseUrl}}/attach/2016_Hux_en_PD.pdf"> 2016_Hux_en_PD & UX </a></li>
-    </ul>
--->
+    <!--
+        做过的一些东西，右转<a href="/portfolio"> Portfolio 👉 </a>
+        <br>
+        <br>
+        最后附上认真版的简历:
+        <ul>
+            <li><a href="{{site.baseUrl}}/attach/2016_Hux_en_SE.pdf"> 2016_Hux_en_Sr.SE </a></li>
+            <li><a href="{{site.baseUrl}}/attach/2016_Hux_en_PD.pdf"> 2016_Hux_en_PD & UX </a></li>
+        </ul>
+    -->
 </div>
 
 <!-- English Version -->
@@ -68,8 +69,8 @@ header-img: "img/about-bg.jpg"
     <p>Product Design and Product Management is also attractive and comfortable to me.</p>
 
     <p>
-    You can call me English name <b>Hux</b>,<br>
-    And my Chinese name is <b>Huang Xuan</b>
+        You can call me English name <b>Hux</b>,<br>
+        And my Chinese name is <b>Huang Xuan</b>
     </p>
 
     <hr>
@@ -100,7 +101,7 @@ header-img: "img/about-bg.jpg"
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
-        // zh by default
+            // zh by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
@@ -128,10 +129,10 @@ header-img: "img/about-bg.jpg"
 <!-- 多说评论框 start -->
 <div class="comment">
     <div class="ds-thread"
-    {% if site.duoshuo_username == "huxblog" %}
-        data-thread-id="1187623191091085319"
+         {% if site.duoshuo_username == "huxblog" %}
+    data-thread-id="1187623191091085319"
     {% else %}
-        data-thread-key="{{site.duoshuo_username}}/about"
+    data-thread-key="{{site.duoshuo_username}}/about"
     {% endif %}
 
     data-title="{{page.title}}"
@@ -152,7 +153,7 @@ header-img: "img/about-bg.jpg"
         ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
         ds.charset = 'UTF-8';
         (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
 </script>
 <!-- 多说公共JS代码 end -->

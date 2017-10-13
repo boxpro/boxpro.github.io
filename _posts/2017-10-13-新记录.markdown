@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "Android 架构调优第一篇"
+subtitle:   " \"Android网络请求和业务逻辑隔离的一种方式\""
+date:       2015-01-29 12:00:00
+author:     "Hux"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 技术
+---
+
+> “Yeah It's on. ”
+
+基于Android的一些网络访问框架一种隔离方式
+基本的网络请求框架，一般主流的为okhttp,但是考虑到后期的变化，需要将其和业务逻辑的代码隔离，一般采用接口隔离的方式，业务逻辑暴露统一的网络请求接口
